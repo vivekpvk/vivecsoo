@@ -73,7 +73,7 @@ ERROR - 2018-09-11 10:49:47 --> 404 Page Not Found: Newadmin/index
 ERROR - 2018-09-11 10:51:21 --> 404 Page Not Found: Newadmin/index
 ERROR - 2018-09-11 10:51:22 --> 404 Page Not Found: Newadmin/index
 ERROR - 2018-09-11 10:51:22 --> 404 Page Not Found: Newadmin/index
-ERROR - 2018-09-11 10:55:01 --> Severity: error --> Exception: Unable to locate the model you have specified: Cat_model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 348
+ERROR - 2018-09-11 10:55:01 --> Severity: error --> Exception: Unable to locate the model you have specified: Category_Model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 348
 ERROR - 2018-09-11 10:55:54 --> Severity: error --> Exception: Unable to locate the model you have specified: Brand_model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 348
 ERROR - 2018-09-11 11:00:32 --> Severity: error --> Exception: syntax error, unexpected '}' C:\xampp\htdocs\bangalore_shop\application\controllers\admin\Register.php 33
 ERROR - 2018-09-11 11:00:43 --> Severity: error --> Exception: syntax error, unexpected '}' C:\xampp\htdocs\bangalore_shop\application\controllers\admin\Register.php 56
@@ -104,8 +104,8 @@ ERROR - 2018-09-11 11:23:08 --> Severity: Notice --> Trying to get property 'ses
 ERROR - 2018-09-11 11:23:08 --> Severity: error --> Exception: Call to a member function set_flashdata() on null C:\xampp\htdocs\bangalore_shop\application\controllers\admin\category\Categoryadd.php 47
 ERROR - 2018-09-11 11:24:17 --> 404 Page Not Found: admin/category/Cat_list/index
 ERROR - 2018-09-11 11:24:50 --> 404 Page Not Found: admin/category/Cat_list/index
-ERROR - 2018-09-11 11:24:57 --> 404 Page Not Found: admin/Categoryadd/cat_list
-ERROR - 2018-09-11 11:25:02 --> 404 Page Not Found: admin/Categoryadd/cat_list
+ERROR - 2018-09-11 11:24:57 --> 404 Page Not Found: admin/cat_list
+ERROR - 2018-09-11 11:25:02 --> 404 Page Not Found: admin/cat_list
 ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClass::$catparent_id C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 51
 ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 60
 ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClass::$image C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 61
@@ -131,7 +131,7 @@ ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClass::$image C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 61
 ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClass::$image C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 62
 ERROR - 2018-09-11 11:25:13 --> Severity: Notice --> Undefined property: stdClass::$created_by C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 63
-ERROR - 2018-09-11 11:25:27 --> 404 Page Not Found: admin/Categoryadd/cat_list
+ERROR - 2018-09-11 11:25:27 --> 404 Page Not Found: admin/cat_list
 ERROR - 2018-09-11 11:25:47 --> Severity: Notice --> Undefined property: stdClass::$catparent_id C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 51
 ERROR - 2018-09-11 11:25:47 --> Severity: Notice --> Undefined property: stdClass::$name C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 60
 ERROR - 2018-09-11 11:25:47 --> Severity: Notice --> Undefined property: stdClass::$image C:\xampp\htdocs\bangalore_shop\application\views\admin\category\cat_list.php 61
@@ -187,7 +187,7 @@ ERROR - 2018-09-11 12:47:09 --> Query error: Unknown column 'image' in 'field li
 ERROR - 2018-09-11 12:47:40 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 59
 ERROR - 2018-09-11 12:47:40 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
 ERROR - 2018-09-11 12:47:40 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
-ERROR - 2018-09-11 12:47:40 --> 404 Page Not Found: admin/product/Productadd/product_list
+ERROR - 2018-09-11 12:47:40 --> 404 Page Not Found: admin/product/product_list
 ERROR - 2018-09-11 13:00:54 --> Severity: error --> Exception: syntax error, unexpected '}', expecting end of file C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 91
 ERROR - 2018-09-11 13:00:57 --> Severity: error --> Exception: syntax error, unexpected '}', expecting end of file C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 91
 ERROR - 2018-09-11 13:01:10 --> 404 Page Not Found: Upload/brand
@@ -199,9 +199,9 @@ ERROR - 2018-09-11 13:03:22 --> 404 Page Not Found: Upload/acer_predator_noteboo
 ERROR - 2018-09-11 13:03:23 --> 404 Page Not Found: Assets/css
 ERROR - 2018-09-11 13:03:26 --> 404 Page Not Found: Upload/acer_predator_notebook_gaming_utility_backpack1.jpg
 ERROR - 2018-09-11 13:03:30 --> 404 Page Not Found: Assets/css
-ERROR - 2018-09-11 13:04:56 --> Severity: error --> Exception: Call to undefined method Product_model::getPosts() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 19
-ERROR - 2018-09-11 13:05:56 --> Severity: error --> Exception: Call to undefined method Product_model::getPosts() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 19
-ERROR - 2018-09-11 13:05:58 --> Severity: error --> Exception: Call to undefined method Product_model::getPosts() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 19
+ERROR - 2018-09-11 13:04:56 --> Severity: error --> Exception: Call to undefined method Product_Model::getPosts() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 19
+ERROR - 2018-09-11 13:05:56 --> Severity: error --> Exception: Call to undefined method Product_Model::getPosts() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 19
+ERROR - 2018-09-11 13:05:58 --> Severity: error --> Exception: Call to undefined method Product_Model::getPosts() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 19
 ERROR - 2018-09-11 13:06:19 --> 404 Page Not Found: Upload/acer_predator_notebook_gaming_utility_backpack1.jpg
 ERROR - 2018-09-11 13:06:37 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 59
 ERROR - 2018-09-11 13:06:37 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
@@ -215,7 +215,7 @@ ERROR - 2018-09-11 13:09:47 --> 404 Page Not Found: Upload/chrysanthemum.jpg
 ERROR - 2018-09-11 13:10:01 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 59
 ERROR - 2018-09-11 13:10:01 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
 ERROR - 2018-09-11 13:10:01 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
-ERROR - 2018-09-11 13:10:01 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 9
+ERROR - 2018-09-11 13:10:01 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 9
 ERROR - 2018-09-11 13:10:02 --> 404 Page Not Found: Upload/acer_predator_notebook_gaming_utility_backpack1.jpg
 ERROR - 2018-09-11 13:10:02 --> 404 Page Not Found: Upload/chrysanthemum.jpg
 ERROR - 2018-09-11 13:14:10 --> 404 Page Not Found: Upload/chrysanthemum.jpg
@@ -303,7 +303,7 @@ ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion 
 ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 152
 ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 152
 ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 153
-ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 41
+ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 41
 ERROR - 2018-09-11 14:18:56 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\system\database\DB_query_builder.php 2442
 ERROR - 2018-09-11 14:18:56 --> Query error: Unknown column 'Array' in 'where clause' - Invalid query: UPDATE `products` SET `prod_image` = 'Array/Array/tulips.jpg', `prod_name` = 'cgdfgaaaa', `cat_id` = '1', `prod_brand` = 'fghdfg', `prod_url` = 'fdg', `company` = 'dfgdfg', `description` = 'dfgdfg', `specification` = 'fdgdfgdf', `modified_at` = '2018-09-11 14:18:56', `status` = '1'
 WHERE `id` = Array
@@ -331,10 +331,10 @@ ERROR - 2018-09-11 14:21:44 --> Severity: Notice --> Array to string conversion 
 ERROR - 2018-09-11 14:21:44 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 152
 ERROR - 2018-09-11 14:21:44 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 152
 ERROR - 2018-09-11 14:21:44 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 153
-ERROR - 2018-09-11 14:21:53 --> 404 Page Not Found: admin/product/Productadd/Delete_product
+ERROR - 2018-09-11 14:21:53 --> 404 Page Not Found: admin/product/Delete_product
 ERROR - 2018-09-11 14:23:42 --> Severity: Notice --> Undefined property: Productadd::$Minipart_model C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 168
 ERROR - 2018-09-11 14:23:42 --> Severity: error --> Exception: Call to a member function delete_product() on null C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 168
 ERROR - 2018-09-11 14:24:50 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 59
 ERROR - 2018-09-11 14:24:50 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
 ERROR - 2018-09-11 14:24:50 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
-ERROR - 2018-09-11 14:24:50 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 9
+ERROR - 2018-09-11 14:24:50 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 9

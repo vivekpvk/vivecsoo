@@ -7,9 +7,9 @@ class Vendordetail extends CI_Controller {
 	{
             parent::__construct();
             $this->load->model('Vendor_model');
-            //$this->load->model('Cat_model');
+            //$this->load->model('Category_Model');
             $this->load->model('Common_model');
-            $this->load->model('Product_model');
+            $this->load->model('Product_Model');
             if($this->session->userdata('email') == '')
           {
             redirect(base_url().'admin/login');
@@ -144,7 +144,7 @@ public function addDetails()
         if($this->Vendor_model->update_vendor($data)) {
         /*$keywords            = $this->input->post('keywords');
         foreach ($keywords as $keyword){
-        if(!$this->Product_model->update_key($keyword)){
+        if(!$this->Product_Model->update_key($keyword)){
         $data['error']  .="Keyword: ".$this->upload->display_errors();
         }
            }*/
@@ -282,7 +282,7 @@ public function updateKey()
         {
         $keywords            = $this->input->post('keywords');
         foreach ($keywords as $keyword){
-        if(!$this->Product_model->update_key($keyword)){
+        if(!$this->Product_Model->update_key($keyword)){
         $data['error']  .="Keyword: ".$this->upload->display_errors();
         }else{
             redirect('admin/vendor/Vendordetail/selectKey');
@@ -385,7 +385,7 @@ public function saveDetail()
             
             $keywords            = $this->input->post('keywords');
             foreach ($keywords as $keyword){
-            if(!$this->Product_model->update_key($keyword)){
+            if(!$this->Product_Model->update_key($keyword)){
             $data['error']  .="Keyword: ".$this->upload->display_errors();
             }
         }

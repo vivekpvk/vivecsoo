@@ -78,9 +78,9 @@
                                                 }
                                             ?></td>
                                          <td>
-                                            <a class="btn btn-default btn-rounded btn-condensed btn-sm" type="button" data-toggle="tooltip"  title="Edit" href="<?=base_url()?>admin/product/productadd/edit_product/<?=$post->id?>"><i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-default btn-rounded btn-condensed btn-sm" type="button" data-toggle="tooltip"  title="Edit" href="<?=base_url()?>admin/product/edit_product/<?=$post->id?>"><i class="fa fa-pencil"></i></a>
                                              
-                                            <a class="btn btn-danger btn-rounded btn-condensed btn-sm" href="<?=base_url()?>admin/product/productadd/Delete_product/<?=$post->id?>" data-href="" data-toggle="tooltip" title="" data-original-title="Delete" value="Delete">
+                                            <a class="btn btn-danger btn-rounded btn-condensed btn-sm" href="<?=base_url()?>admin/product/Delete_product/<?=$post->id?>" data-href="" data-toggle="tooltip" title="" data-original-title="Delete" value="Delete">
                                             <span class="fa fa-times" title="delete"></span>
                                         </a>
                                     </td>

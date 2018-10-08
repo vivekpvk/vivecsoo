@@ -20,10 +20,10 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		 $this->load->model('Login_model');
+		 $this->load->model('User_Model');
 		//$this->load->view('admin/dashboard');
-		$data['vendor']   = $this->Login_model->getVendor();
-        $data['customer'] = $this->Login_model->getCustomer();
+		$data['vendor']   = $this->User_Model->getVendor();
+        $data['customer'] = $this->User_Model->getCustomer();
         $roleid           = $this->session->userdata('roleid');
         if ($roleid!=2) {
         $this->load->view('admin/dashboard',$data);

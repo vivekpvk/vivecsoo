@@ -5,7 +5,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
 <div class="content-wrapper">
     <div class="row">
       <div class="content">
-        <input type="button" class="btn btn-info" value="Add Product" onclick="location.href = '<?php echo base_url(); ?>admin/product/productadd';">
+        <input type="button" class="btn btn-info" value="Add Product" onclick="location.href = '<?php echo base_url(); ?>admin/product';">
                     <div class="row">
                        <div class="col-lg-12">
                            <?php
@@ -107,9 +107,9 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                                 }
                                             ?></td>
                                          <td>
-                                            <a class="btn btn-default btn-rounded btn-condensed btn-sm" type="button" data-toggle="tooltip"  title="Edit" href="<?=base_url()?>admin/product/productadd/edit_product/<?=$post->id?>"><i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-default btn-rounded btn-condensed btn-sm" type="button" data-toggle="tooltip"  title="Edit" href="<?=base_url()?>admin/product/edit_product/<?=$post->id?>"><i class="fa fa-pencil"></i></a>
                                              
-                                            <a  class="delete btn btn-danger btn-rounded btn-condensed btn-sm" href="<?=base_url()?>admin/product/productadd/Delete_product/<?=$post->id?>" data-href="" data-toggle="tooltip" title="" data-original-title="Disable" value="Disable">
+                                            <a  class="delete btn btn-danger btn-rounded btn-condensed btn-sm" href="<?=base_url()?>admin/product/Delete_product/<?=$post->id?>" data-href="" data-toggle="tooltip" title="" data-original-title="Disable" value="Disable">
                                             <span class="fa fa-ban" title="disable"></span>
                                         </a>
                                     </td>

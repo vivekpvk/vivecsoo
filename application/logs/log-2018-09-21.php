@@ -33,9 +33,9 @@ ERROR - 2018-09-21 08:49:16 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2018-09-21 08:49:16 --> Severity: Notice --> Undefined property: stdClass::$company C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 87
 ERROR - 2018-09-21 08:49:16 --> Severity: Notice --> Undefined property: stdClass::$description C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 90
 ERROR - 2018-09-21 08:49:16 --> Severity: Notice --> Undefined property: stdClass::$specification C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 93
-ERROR - 2018-09-21 08:51:28 --> Severity: error --> Exception: syntax error, unexpected ';' C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 31
-ERROR - 2018-09-21 09:17:21 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 33
-ERROR - 2018-09-21 09:17:23 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 33
+ERROR - 2018-09-21 08:51:28 --> Severity: error --> Exception: syntax error, unexpected ';' C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 31
+ERROR - 2018-09-21 09:17:21 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 33
+ERROR - 2018-09-21 09:17:23 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 33
 ERROR - 2018-09-21 09:17:31 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 78
 ERROR - 2018-09-21 09:17:31 --> Severity: Notice --> Undefined property: stdClass::$prod_brand C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 81
 ERROR - 2018-09-21 09:17:31 --> Severity: Notice --> Undefined property: stdClass::$prod_url C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 84
@@ -345,16 +345,16 @@ ERROR - 2018-09-21 09:50:08 --> Query error: Unknown column 'SUPER_ADMIN' in 'wh
 WHERE NOT 2 = SUPER_ADMIN AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')
 ERROR - 2018-09-21 09:50:10 --> Query error: Unknown column 'SUPER_ADMIN' in 'where clause' - Invalid query: SELECT * FROM products
 WHERE NOT 2 = SUPER_ADMIN AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')
-ERROR - 2018-09-21 09:50:31 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 30
+ERROR - 2018-09-21 09:50:31 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 30
 ERROR - 2018-09-21 09:50:31 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')' at line 2 - Invalid query: SELECT * FROM products
 WHERE NOT  = 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')
-ERROR - 2018-09-21 09:50:32 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 30
+ERROR - 2018-09-21 09:50:32 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 30
 ERROR - 2018-09-21 09:50:32 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')' at line 2 - Invalid query: SELECT * FROM products
 WHERE NOT  = 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')
-ERROR - 2018-09-21 09:50:33 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 30
+ERROR - 2018-09-21 09:50:33 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 30
 ERROR - 2018-09-21 09:50:33 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')' at line 2 - Invalid query: SELECT * FROM products
 WHERE NOT  = 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')
-ERROR - 2018-09-21 09:50:33 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 30
+ERROR - 2018-09-21 09:50:33 --> Severity: Notice --> Undefined variable: vendor_1 C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 30
 ERROR - 2018-09-21 09:50:33 --> Query error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')' at line 2 - Invalid query: SELECT * FROM products
 WHERE NOT  = 5 AND (vendor_1='1' OR vendor_2='1' OR vendor_3='1')
 ERROR - 2018-09-21 09:50:41 --> Query error: No tables used - Invalid query: SELECT *
@@ -502,8 +502,8 @@ ERROR - 2018-09-21 10:09:57 --> Severity: Notice --> Trying to get property 'mod
 ERROR - 2018-09-21 10:09:57 --> Severity: Notice --> Trying to get property 'status' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 100
 ERROR - 2018-09-21 10:09:57 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 110
 ERROR - 2018-09-21 10:09:57 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 112
-ERROR - 2018-09-21 10:11:04 --> Severity: Notice --> Undefined property: CI_DB_mysqli_result::$db C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 31
-ERROR - 2018-09-21 10:11:04 --> Severity: error --> Exception: Call to a member function get() on null C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 31
+ERROR - 2018-09-21 10:11:04 --> Severity: Notice --> Undefined property: CI_DB_mysqli_result::$db C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 31
+ERROR - 2018-09-21 10:11:04 --> Severity: error --> Exception: Call to a member function get() on null C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 31
 ERROR - 2018-09-21 10:11:38 --> Severity: Notice --> Undefined property: mysqli::$id C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 63
 ERROR - 2018-09-21 10:11:38 --> Severity: Notice --> Undefined property: mysqli::$cat_id C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 68
 ERROR - 2018-09-21 10:11:38 --> Severity: Notice --> Undefined property: mysqli::$prod_name C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 75
@@ -1822,11 +1822,11 @@ ERROR - 2018-09-21 10:30:56 --> Severity: Notice --> Trying to get property 'mod
 ERROR - 2018-09-21 10:30:56 --> Severity: Notice --> Trying to get property 'status' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 100
 ERROR - 2018-09-21 10:30:56 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 110
 ERROR - 2018-09-21 10:30:56 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 112
-ERROR - 2018-09-21 10:31:30 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 32
-ERROR - 2018-09-21 10:31:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 32
-ERROR - 2018-09-21 10:31:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 32
-ERROR - 2018-09-21 10:31:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 32
-ERROR - 2018-09-21 10:31:32 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 32
+ERROR - 2018-09-21 10:31:30 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 32
+ERROR - 2018-09-21 10:31:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 32
+ERROR - 2018-09-21 10:31:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 32
+ERROR - 2018-09-21 10:31:31 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 32
+ERROR - 2018-09-21 10:31:32 --> Severity: error --> Exception: Call to undefined method CI_DB_mysqli_result::array() C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 32
 ERROR - 2018-09-21 10:31:35 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 63
 ERROR - 2018-09-21 10:31:35 --> Severity: Notice --> Trying to get property 'cat_id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 68
 ERROR - 2018-09-21 10:31:35 --> Severity: Notice --> Trying to get property 'prod_name' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 75
@@ -3885,7 +3885,7 @@ ERROR - 2018-09-21 10:52:19 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2018-09-21 10:52:19 --> Severity: Notice --> Undefined property: stdClass::$company C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 87
 ERROR - 2018-09-21 10:52:19 --> Severity: Notice --> Undefined property: stdClass::$description C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 90
 ERROR - 2018-09-21 10:52:19 --> Severity: Notice --> Undefined property: stdClass::$specification C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 93
-ERROR - 2018-09-21 10:59:11 --> Severity: error --> Exception: syntax error, unexpected ',' C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 43
+ERROR - 2018-09-21 10:59:11 --> Severity: error --> Exception: syntax error, unexpected ',' C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 43
 ERROR - 2018-09-21 10:59:22 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 78
 ERROR - 2018-09-21 10:59:22 --> Severity: Notice --> Undefined property: stdClass::$prod_brand C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 81
 ERROR - 2018-09-21 10:59:22 --> Severity: Notice --> Undefined property: stdClass::$prod_url C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 84
@@ -3950,7 +3950,7 @@ AND `roleId` != 'SUPER_ADMIN'
 OR `vendor_1` = '6'
 OR `vendor_2` = '6'
 OR `vendor_3` = '6'
-ERROR - 2018-09-21 11:06:11 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 43
+ERROR - 2018-09-21 11:06:11 --> Severity: error --> Exception: syntax error, unexpected ')' C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 43
 ERROR - 2018-09-21 11:06:24 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 78
 ERROR - 2018-09-21 11:06:24 --> Severity: Notice --> Undefined property: stdClass::$prod_brand C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 81
 ERROR - 2018-09-21 11:06:24 --> Severity: Notice --> Undefined property: stdClass::$prod_url C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 84

@@ -230,5 +230,5 @@ ERROR - 2018-10-04 09:05:23 --> Severity: Notice --> Undefined variable: data C:
 ERROR - 2018-10-04 09:05:23 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\sidebar.php 164
 ERROR - 2018-10-04 09:05:46 --> Severity: error --> Exception: syntax error, unexpected end of file C:\xampp\htdocs\bangalore_shop\application\views\admin\sidebar.php 230
 ERROR - 2018-10-04 09:27:17 --> 404 Page Not Found: admin//index
-ERROR - 2018-10-04 10:56:18 --> Severity: error --> Exception: Call to undefined method Login_model::getCustomer() C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 26
-ERROR - 2018-10-04 10:56:26 --> Severity: error --> Exception: Call to undefined method Login_model::getCustomer() C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 26
+ERROR - 2018-10-04 10:56:18 --> Severity: error --> Exception: Call to undefined method User_Model::getCustomer() C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 26
+ERROR - 2018-10-04 10:56:26 --> Severity: error --> Exception: Call to undefined method User_Model::getCustomer() C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 26

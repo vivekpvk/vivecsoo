@@ -9,7 +9,7 @@ ERROR - 2018-09-27 07:38:39 --> Severity: Notice --> Undefined variable: vendor 
 ERROR - 2018-09-27 07:38:39 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 48
 ERROR - 2018-09-27 07:38:39 --> Severity: Notice --> Undefined variable: customer C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 71
 ERROR - 2018-09-27 07:38:39 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 71
-ERROR - 2018-09-27 07:42:51 --> Severity: Notice --> Undefined property: Welcome::$Login_model C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 24
+ERROR - 2018-09-27 07:42:51 --> Severity: Notice --> Undefined property: Welcome::$User_Model C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 24
 ERROR - 2018-09-27 07:42:51 --> Severity: error --> Exception: Call to a member function getVendor() on null C:\xampp\htdocs\bangalore_shop\application\controllers\Welcome.php 24
 ERROR - 2018-09-27 08:29:33 --> 404 Page Not Found: admin/Otp_send/index
 ERROR - 2018-09-27 10:05:05 --> 404 Page Not Found: Vendors/js

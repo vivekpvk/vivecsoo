@@ -30,7 +30,7 @@ class Plan extends CI_Controller {
         if ($this->form_validation->run() == FALSE)
        {
        $this->session->set_flashdata('error_msg', 'Please fill all field.');
-        redirect('admin/category/Categoryadd');
+        redirect('admin/category');
        }else{
         $plan       = $this->input->post('plan');
         $price      = $this->input->post('price');

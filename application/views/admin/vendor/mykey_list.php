@@ -5,7 +5,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
 <div class="content-wrapper">
     <div class="row">
       <div class="content">
-        <!-- <input type="button" class="btn btn-info" value="Add Product" onclick="location.href = '<?php echo base_url(); ?>admin/product/productadd';"> -->
+        <!-- <input type="button" class="btn btn-info" value="Add Product" onclick="location.href = '<?php echo base_url(); ?>admin/product';"> -->
                     <div class="row">
                        <div class="col-lg-12">
                            <?php

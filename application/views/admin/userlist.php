@@ -87,6 +87,6 @@ require("sidebar.php");
                     </div>
                 </div>
             </main>
-            <!-- <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/admin/login/logout">Logout</a>
+            <!-- <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/marc/logout">Logout</a>
             <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/admin/login/back">Back</a>  -->
       

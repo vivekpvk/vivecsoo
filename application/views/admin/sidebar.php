@@ -37,7 +37,7 @@
           <?php 
           if (in_array(DASHBOARD, $menuIds)) {?>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url(); ?>admin/login/dashboard">
+            <a class="nav-link" href="<?php echo base_url(); ?>admin/dashboard">
               <i class="menu-icon mdi mdi-television"></i>
               <span class="menu-title">Dashboard</span>
             </a>
@@ -54,26 +54,26 @@
               <ul class="nav flex-column sub-menu">
                 <?php if (in_array(USER_LIST, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/Newadmin">User List</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user">Manage User</a>
                 </li>
               <?php }
                if (in_array(USER_MANAGE, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/register/regis">Add User</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user/add">Add User</a>
                 </li>
               <?php }
                if (in_array(USER_ROLE, $menuIds)) {?>
                <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/register/addRole">Add Role</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user/role">Add Role</a>
                 </li>
               <?php }
                if (in_array(USER_MENU, $menuIds)) {?>                
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/register/setMenu">Manage Privilage</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user/menu">Manage Privilage</a>
                 </li>
                 <?php }?>
                <!--  <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/product/productadd">Add Product</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/product">Add Product</a>
                 </li> -->
               </ul>
             </div>
@@ -90,12 +90,12 @@
               <ul class="nav flex-column sub-menu">
                 <?php if (in_array(CATALOG_LIST, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/category/categoryadd/cat_list">Category</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/category/">Category</a>
                 </li>
                 <?php } 
           if (in_array(PRODUCT_LIST, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/product/productadd/product_list">Product</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/product/product_list">Product</a>
                 </li>
               <?php } ?>
                 <!-- <li class="nav-item">
@@ -170,7 +170,7 @@
           </li>
           <?php } ?>
            <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url();?>admin/login/logout">
+            <a class="nav-link" href="<?php echo base_url();?>marc/logout">
               <i class="menu-icon  fa fa-sign-out"></i>
 
               <span class="menu-title">Logout</span>
@@ -218,7 +218,7 @@
               <ul class="nav flex-column sub-menu">
                
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>admin/login/logout"> Logout </a>
+                  <a class="nav-link" href="<?php echo base_url();?>marc/logout"> Logout </a>
                 </li>
               </ul>
             </div>

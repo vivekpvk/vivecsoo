@@ -63,7 +63,7 @@ if(!empty($this->session->userdata('userid'))) {
                         </div>
                     <?php } ?> 
 
-                                        <form class="form-horizontal push-5-t" id="register-form"  method="post" action="<?php echo base_url(); ?>admin/login/verify" enctype="multipart/form-data">
+                                        <form class="form-horizontal push-5-t" id="register-form"  method="post" action="<?php echo base_url(); ?>admin/user/login" enctype="multipart/form-data">
 
                                         <div class="form-group">
                                             <!--<label class="col-xs-12">Email</label>-->

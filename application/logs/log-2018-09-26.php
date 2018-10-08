@@ -113,7 +113,7 @@ ERROR - 2018-09-26 08:18:03 --> Severity: Notice --> Undefined variable: vendor 
 ERROR - 2018-09-26 08:18:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 48
 ERROR - 2018-09-26 08:18:03 --> Severity: Notice --> Undefined variable: customer C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 71
 ERROR - 2018-09-26 08:18:03 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 71
-ERROR - 2018-09-26 08:40:00 --> Severity: Notice --> Undefined property: Otp_send::$Login_model C:\xampp\htdocs\bangalore_shop\application\controllers\otp_send.php 66
+ERROR - 2018-09-26 08:40:00 --> Severity: Notice --> Undefined property: Otp_send::$User_Model C:\xampp\htdocs\bangalore_shop\application\controllers\otp_send.php 66
 ERROR - 2018-09-26 08:40:00 --> Severity: error --> Exception: Call to a member function saveOtp() on null C:\xampp\htdocs\bangalore_shop\application\controllers\otp_send.php 66
 ERROR - 2018-09-26 08:42:06 --> Query error: Table 'bangalore_shop.otp' doesn't exist - Invalid query: SELECT *
 FROM `otp`
