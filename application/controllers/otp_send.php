@@ -5,7 +5,7 @@ public function __construct()
 {
 //call CodeIgniter's default Constructor
 parent::__construct();
-$this->load->model('Login_model');
+$this->load->model('User_Model');
 }
 public function index(){
 $this->load->view('sign_up');	
@@ -75,7 +75,7 @@ curl_close($ch);
 //$now = date("h:i");
 $this->session->set_userdata('mobile_otp',$rndno);
 
-$saveotp  = $this->Login_model->saveOtp($mobileNumber);
+$saveotp  = $this->User_Model->saveOtp($mobileNumber);
 if ($saveotp) {
 	$this->session->set_tempdata('mobile_otp', $rndno, 600);
 
@@ -92,7 +92,7 @@ if ($saveotp) {
 public function verify(){
 $otp     = $this->input->post("mobileotp");
 echo $otp; die();
-$verify  = $this->Login_model->otpVerify($otp);	
+$verify  = $this->User_Model->otpVerify($otp);	
 if ($verify) {
 	$this->session->set_flashdata('success_msg', 'Otp Verified Successfully.');
 	redirect('admin/login/userProfile');

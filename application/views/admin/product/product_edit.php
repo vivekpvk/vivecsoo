@@ -34,7 +34,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                    <div class="card-body">  
                                    <h4>Edit Product</h4>
                                 <div class="block-content block-content-full bg-gray-lighter ">
-                                    <form class="form-horizontal"  method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>admin/product/productadd/saveproduct">
+                                    <form class="form-horizontal"  method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>admin/product/saveproduct">
                                        
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Select Parent Category<span class="text-danger">*</span></label>

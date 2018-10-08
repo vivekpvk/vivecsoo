@@ -33,7 +33,7 @@ require("sidebar.php");
                         <div class="card">
                             <div class="card-body"> 
                                 <h4 class="">Manage User Menu Privilage</h4>
-                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/register/saveUserRole"  method="post" enctype="multipart/form-data">
+                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/user/setmenu"  method="post" enctype="multipart/form-data">
 
                                        
                                         
@@ -43,7 +43,6 @@ require("sidebar.php");
                                                 <select class="form-control" name="role">
                                                     <option value="0">No Role</option>
                                                     <option value="1">Super Admin</option>
-                                                    <option value="2">Vendor</option>
                                                     <option value="3">Sub Admin</option>
                                                 </select>
                                             </div>

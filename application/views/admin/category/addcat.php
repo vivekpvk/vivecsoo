@@ -35,7 +35,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                     
                                     <h3 class="block-title">New Category</h3>
                                 <div class="block-content block-content-full bg-gray-lighter ">
-                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/category/categoryadd/Addcat"  method="post" enctype="multipart/form-data">
+                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/category/create"  method="post" enctype="multipart/form-data">
                                         
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Category Name<span class="text-danger">*</span></label>

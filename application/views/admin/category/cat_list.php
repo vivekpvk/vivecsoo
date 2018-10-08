@@ -5,7 +5,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
 <div class="content-wrapper">
     <div class="row">
       <div class="content">
-        <input type="button" class="btn btn-info" value="Add Category" onclick="location.href = '<?php echo base_url(); ?>admin/category/categoryadd';">
+        <input type="button" class="btn btn-info" value="Add Category" onclick="location.href = '<?php echo base_url(); ?>admin/category/add';">
         <div class="row">
                        <div class="col-lg-12">
                         <?php
@@ -68,10 +68,10 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                                 }
                                             ?></td>
                                          <td>
-                                            <a class="btn btn-default btn-rounded btn-condensed btn-sm" type="button" data-toggle="tooltip"  title="Edit" href="<?=base_url()?>admin/category/categoryadd/edit_cat/<?=$post->id?>"><i class="fa fa-pencil"></i></a>
+                                            <a class="btn btn-default btn-rounded btn-condensed btn-sm" type="button" data-toggle="tooltip"  title="Edit" href="<?=base_url()?>admin/category/edit/<?=$post->id?>"><i class="fa fa-pencil"></i></a>
                                              
                                             <a class="delete btn btn-danger btn-rounded btn-condensed btn-sm"
-                                            href="<?=base_url()?>admin/category/categoryadd/delete_cat/<?=$post->id;?>" data-href="" data-toggle="tooltip" title="" data-original-title="Delete" data-confirm="Are you sure to delete this item?" value="Delete">
+                                            href="<?=base_url()?>admin/category/delete/<?=$post->id;?>" data-href="" data-toggle="tooltip" title="" data-original-title="Delete" data-confirm="Are you sure to delete this item?" value="Delete">
                                             <span class="fa fa-ban" title="delete"></span>
                                         </a>
                                     </td>

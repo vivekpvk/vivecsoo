@@ -8,7 +8,7 @@ require("sidebar.php");
         
 
         <!-- <div class="panel-heading" style="text-align: center;">Register Form</div> 
-        <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/admin/login/logout">Logout</a>  
+        <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/marc/logout">Logout</a>  
         <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/admin/login/back">Back</a>   -->  
         <div class="content">
             <div class="row">
@@ -38,7 +38,7 @@ require("sidebar.php");
                         <div class="card">
                             <div class="card-body"> 
                                 <h4 class="">Add User</h4>
-                            <form class="form-horizontal" action="<?php echo base_url(); ?>admin/register/register"  method="post" enctype="multipart/form-data">
+                            <form class="form-horizontal" action="<?php echo base_url(); ?>admin/user/create"  method="post" enctype="multipart/form-data">
                           
                           <div class="form-group">
                         <label class="col-md-2 control-label">First Name<span class="text-danger">*</span></label>

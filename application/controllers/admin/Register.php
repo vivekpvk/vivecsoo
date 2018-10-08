@@ -73,18 +73,6 @@ public function setMenu() {
     $this->load->view('admin/user_privilage');
   }
 
-public function saveUserRole() {
-  $id    = $this->input->post('role');
-  $menus  = implode(',',$this->input->post('menu'));
-  $this->admin_model->add_privilage($menus,$id);
-  $this->session->set_flashdata('success_msg', 'Privilage Added successfully.');
-  redirect('admin/register/setMenu');
-/*else{
-  $this->session->set_flashdata('error_msg', 'Error occured,Try again.');
-  redirect('admin/register/setMenu');
-}*/
-      
-  }
 
 }
 

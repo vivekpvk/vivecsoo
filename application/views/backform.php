@@ -35,7 +35,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                     <h3 class="block-title">New Product</h3>
                                 </div>
                                 <div class="block-content block-content-full bg-gray-lighter ">
-                                     <!--  <form class="form-horizontal" action="<?php echo base_url(); ?>admin/product/productadd/Addproduct"  method="post" enctype="multipart/form-data">
+                                     <!--  <form class="form-horizontal" action="<?php echo base_url(); ?>admin/product/Addproduct"  method="post" enctype="multipart/form-data">
 
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Select Parent Category<span class="text-danger">*</span></label>

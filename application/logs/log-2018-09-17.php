@@ -77,13 +77,13 @@ ERROR - 2018-09-17 07:28:50 --> 404 Page Not Found: Vendors/css
 ERROR - 2018-09-17 07:32:15 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 59
 ERROR - 2018-09-17 07:32:15 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
 ERROR - 2018-09-17 07:32:15 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 67
-ERROR - 2018-09-17 07:32:15 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 9
+ERROR - 2018-09-17 07:32:15 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 9
 ERROR - 2018-09-17 07:37:12 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 61
 ERROR - 2018-09-17 07:37:12 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 69
 ERROR - 2018-09-17 07:37:12 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 69
-ERROR - 2018-09-17 07:37:12 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 9
+ERROR - 2018-09-17 07:37:12 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 9
 ERROR - 2018-09-17 07:40:21 --> 404 Page Not Found: Pages/forms
-ERROR - 2018-09-17 08:44:41 --> Severity: Notice --> Undefined property: Productadd::$Cat_model C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 84
+ERROR - 2018-09-17 08:44:41 --> Severity: Notice --> Undefined property: Productadd::$Category_Model C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 84
 ERROR - 2018-09-17 08:44:41 --> Severity: error --> Exception: Call to a member function cat_list() on null C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 84
 ERROR - 2018-09-17 08:45:07 --> Severity: Notice --> Undefined variable: catlist C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 67
 ERROR - 2018-09-17 08:45:07 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 67
@@ -168,7 +168,7 @@ ERROR - 2018-09-17 09:00:08 --> Severity: error --> Exception: syntax error, une
 ERROR - 2018-09-17 09:04:08 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 60
 ERROR - 2018-09-17 09:04:08 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 68
 ERROR - 2018-09-17 09:04:08 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\controllers\admin\product\Productadd.php 68
-ERROR - 2018-09-17 09:04:09 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_model.php 9
+ERROR - 2018-09-17 09:04:09 --> Severity: Notice --> Array to string conversion C:\xampp\htdocs\bangalore_shop\application\models\Product_Model.php 9
 ERROR - 2018-09-17 09:16:43 --> Severity: Notice --> Undefined variable: user C:\xampp\htdocs\bangalore_shop\application\views\admin\add_role.php 48
 ERROR - 2018-09-17 09:16:43 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\add_role.php 48
 ERROR - 2018-09-17 09:16:43 --> Severity: Notice --> Undefined variable: role C:\xampp\htdocs\bangalore_shop\application\views\admin\add_role.php 61

@@ -212,7 +212,7 @@ if(empty($this->session->userdata('userid'))) {
                 Change Password
               </a">
               
-              <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/admin/login/logout">
+              <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/marc/logout">
                 Sign Out
               </a>
             </div>

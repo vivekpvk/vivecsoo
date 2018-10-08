@@ -60,9 +60,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Email<span class="text-danger">*</span></label>
                                             <div class="col-md-7">
-                                                <input name="email" id="email" value="<?php echo $pro->email?>" class="form-control" required="required" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email address" type="email" spellcheck="false" size="30" placeholder="Email" />
-                                                 
-                                                 <input type="hidden" value="<?php echo $pro->id;?>" name="pro_id" /> 
+                                                <input name="email" id="email" value="<?php echo $pro->email?>" class="form-control" required="required" aria-required="true" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Your email address" type="email" spellcheck="false" size="30" placeholder="Email" readonly="readonly"/>
                                             </div>
                                         </div>
 
@@ -70,10 +68,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                             <label class="col-md-2 control-label">Mobile<span class="text-danger">*</span></label>
                                           <div class="row">
                                             <div class="col-md-7">
-                                                <input class="form-control" type="text" pattern="^\d{10}$" value="<?php echo $pro->mobile?>" id="mobile" name="mobile" placeholder="mobile" >
-                                                 
-                                                 <input type="hidden" value="<?php echo $pro->id;?>" name="pro_id" /> 
-
+                                                <input class="form-control" type="text" pattern="^\d{10}$" value="<?php echo $pro->mobile?>" id="mobile" name="mobile" placeholder="mobile" readonly="readonly">
                                             </div>
                                         <div class="col-md-3">
                                           <input id="otp-btn" name="save" class="btn btn-primary" value="get otp" type="button" onclick="return formSubmit();" style="font-size:12px;padding:3px;"/>

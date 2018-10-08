@@ -9,8 +9,8 @@ require(FCPATH."/application/views/admin/sidebar.php");
                     <div class="row">
                        <div class="col-lg-12">
                            <?php
-                            $success_msg= $this->session->flashdata('success_msg');
-                            $error_msg= $this->session->flashdata('error_msg');
+                            $success_msg= $this->session->flashdata('success_message');
+                            $error_msg= $this->session->flashdata('error_message');
  
                             if($success_msg){
                             ?>
@@ -89,7 +89,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                                             echo "Not Active";
                                                               } ?> </td>
                                     <td>
-                                        <a class="btn btn-danger btn-rounded btn-condensed btn-sm" href="<?=base_url()?>index.php/admin/Newadmin/DeleteAdmin/<?=$user->id?>" data-href="" data-toggle="tooltip" title="" data-original-title="Delete" value="Delete">
+                                        <a class="btn btn-danger btn-rounded btn-condensed btn-sm" href="<?=base_url()?>index.php/admin/user/status/<?=$user->id?>" data-href="" data-toggle="tooltip" title="" data-original-title="Delete" value="Delete">
                                             <span class="fa fa-ban" title="delete"></span>
                                         </a>
                                     </td>
@@ -118,6 +118,6 @@ require(FCPATH."/application/views/admin/footer.php");
 ?>
 
 
-            <!-- <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/admin/login/logout">Logout</a>
+            <!-- <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/marc/logout">Logout</a>
             <a style="padding-left: 20px;" href="<?php echo base_url(); ?>index.php/admin/login/back">Back</a>  -->
        

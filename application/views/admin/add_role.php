@@ -33,7 +33,7 @@ require("sidebar.php");
                         <div class="card">
                             <div class="card-body"> 
                                 <h4 class="">Manage User Role Privilage</h4>
-                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/register/setRole"  method="post" enctype="multipart/form-data">
+                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/user/setrole"  method="post" enctype="multipart/form-data">
 
                                        
                                         

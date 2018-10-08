@@ -39,7 +39,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                     <h3 class="block-title">Edit Category</h3>
                                 </div>
                                 <div class="block-content block-content-full bg-gray-lighter ">
-                                    <form class="form-horizontal"  method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>index.php/admin/category/categoryadd/savecat">
+                                    <form class="form-horizontal"  method="post" enctype="multipart/form-data" action="<?php echo base_url(); ?>index.php/admin/category/update">
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Category Name<span class="text-danger">*</span></label>
                                             <div class="col-md-7">

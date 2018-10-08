@@ -7,7 +7,7 @@ class Forgotpassword extends CI_Controller {
     public function __construct()
 	{
             parent::__construct();
-            $this->load->model('Login_model');
+            $this->load->model('User_Model');
             $this->load->library('email');
 
         }
@@ -18,9 +18,9 @@ class Forgotpassword extends CI_Controller {
     public function ForgotPassword()
     {
     $email = $this->input->post('email');
-    $findemail = $this->Login_model->ForgotPassword($email);
+    $findemail = $this->User_Model->ForgotPassword($email);
     if ($findemail) {
-        $this->Login_model->sendpassword($findemail);
+        $this->User_Model->sendpassword($findemail);
     } else {
         echo "<script>alert(' $email not found, please enter correct email id')</script>";
         redirect( 'admin/Forgotpassword', 'refresh');
