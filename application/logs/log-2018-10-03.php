@@ -317,7 +317,7 @@ ERROR - 2018-10-03 09:57:57 --> Severity: Notice --> Undefined variable: post C:
 ERROR - 2018-10-03 09:57:57 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_add.php 242
 ERROR - 2018-10-03 09:57:57 --> Severity: Notice --> Undefined variable: post C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_add.php 242
 ERROR - 2018-10-03 09:57:57 --> Severity: Notice --> Trying to get property 'cat_name' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_add.php 242
-ERROR - 2018-10-03 11:04:09 --> Severity: error --> Exception: Too few arguments to function CI_DB_query_builder::join(), 1 passed in C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php on line 164 and at least 2 expected C:\xampp\htdocs\bangalore_shop\system\database\DB_query_builder.php 526
+ERROR - 2018-10-03 11:04:09 --> Severity: error --> Exception: Too few arguments to function CI_DB_query_builder::join(), 1 passed in C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php on line 164 and at least 2 expected C:\xampp\htdocs\bangalore_shop\system\database\DB_query_builder.php 526
 ERROR - 2018-10-03 11:05:35 --> Query error: Unknown column 'vendor.vendor_1' in 'where clause' - Invalid query: SELECT *
 FROM `products`
 JOIN `user` ON `vendor`.`vendor_1`=`user`.`id`
@@ -330,24 +330,24 @@ JOIN `user` ON `vendor`.`vendor_1`=`user`.`id`
 WHERE `vendor`.`vendor_1` = `user`.`id`
 OR `vendor`.`vendor_2` = `user`.`id`
 OR `vendor`.`vendor_3` = `user`.`id`
-ERROR - 2018-10-03 11:23:10 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 162
-ERROR - 2018-10-03 11:23:10 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:10 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:11 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 162
-ERROR - 2018-10-03 11:23:11 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:11 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 162
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 162
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 162
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 162
-ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
-ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 163
+ERROR - 2018-10-03 11:23:10 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 162
+ERROR - 2018-10-03 11:23:10 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:10 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:11 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 162
+ERROR - 2018-10-03 11:23:11 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:11 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 162
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 162
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 162
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 162
+ERROR - 2018-10-03 11:23:12 --> Severity: Notice --> Undefined variable: query C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
+ERROR - 2018-10-03 11:23:12 --> Severity: error --> Exception: Call to a member function result() on null C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 163
 ERROR - 2018-10-03 11:23:29 --> 404 Page Not Found: Vendors/js
 ERROR - 2018-10-03 11:23:29 --> 404 Page Not Found: Vendors/js
 ERROR - 2018-10-03 11:23:29 --> 404 Page Not Found: Vendors/css

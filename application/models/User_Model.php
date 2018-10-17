@@ -1,6 +1,30 @@
 <?php
 class User_Model extends CI_Model {
 
+    public function get($id) {
+        $this->db->select('*');
+        $this->db->from('user');
+        $this->db->where('id ='.$id);
+        $query = $this->db->get()->row();
+        return $query;
+    }
+
+    public function getByMobile($mobile) {
+        $this->db->select('*');
+        $this->db->from('user');
+        $this->db->where('mobile ="'.$mobile.'"');
+        $query = $this->db->get()->row();
+        return $query;
+    }
+
+    public function getByEmail($email) {
+        $this->db->select('*');
+        $this->db->from('user');
+        $this->db->where('email ="'.$email.'"');
+        $query = $this->db->get()->row();
+        return $query;
+    }
+
     //4 function common for all models list,add,delete,update
     public function create($data){
         $get    = $this->db->query("SELECT * FROM user WHERE email = '".$data['email']."' OR mobile = '".$data['mobile']."'");
@@ -34,20 +58,22 @@ class User_Model extends CI_Model {
         return $result;
     }
 
+    public function updateById($data)
+    {
+        $result     = false;
+        $user       = $data['id'];
+        if(!empty($user)) {
+            $this->db->where('id',$user);
+            $result = $this->db->update('user',$data);
+        }
+        return $result;
+    }
+
     public function changeStatus($id) {
         $this->db->set('status', 0);
         $this->db->where('id',$id);
         $this->db->update('user');
     }
-
-    public function user_profile($id){
-            $this->db->select(' * ');
-            $this->db->from('user');
-            $this->db->where('id', $id);
-            $query = $this->db->get();
-            return $query->result();
-
-        }
 
     public function otpVerify($otp) {
             $mobile         = $this->session->userdata('mobile');

@@ -46,8 +46,8 @@ public function vendorKeys() {
 
 public function addDetails()
 {
-    $this->form_validation->set_rules('business_name', 'business_name', 'required');
-    $this->form_validation->set_rules('business_address', 'business_address','required');
+     $this->form_validation->set_rules('business_name', 'business_name', 'required');
+     $this->form_validation->set_rules('business_address', 'business_address','required');
      $this->form_validation->set_rules('registered_address', 'registered_address', 'required');
      $this->form_validation->set_rules('telephone', 'telephone', 'required');
      $this->form_validation->set_rules('website', 'website', 'required|is_unique[user.email]');
@@ -271,12 +271,6 @@ public function unverify_vendor($id)
         $this->Vendor_model->unverify_vendorKey($id);
         $this->session->set_flashdata('success_msg', 'Vendor Verify Cancelled successfully.');
         redirect('admin/vendor/Vendordetail/vendor_list');
-        }
-public function selectKey()
-        {
-        $data['posts']  = $this->Vendor_model->getPosts();
-        $data['keys']   = $this->Vendor_model->getKeys();
-        $this->load->view('admin/vendor/select_key',$data);
         }
 public function updateKey()
         {

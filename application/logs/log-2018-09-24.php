@@ -270,11 +270,11 @@ ERROR - 2018-09-24 08:45:13 --> Severity: Warning --> Invalid argument supplied 
 ERROR - 2018-09-24 08:47:56 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendor_list.php 73
 ERROR - 2018-09-24 08:48:21 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendor_list.php 73
 ERROR - 2018-09-24 08:58:05 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendor_list.php 73
-ERROR - 2018-09-24 09:15:41 --> Severity: error --> Exception: Call to undefined method Vendor_model::verify_vendor() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 191
+ERROR - 2018-09-24 09:15:41 --> Severity: error --> Exception: Call to undefined method Vendor_Model::verify_vendor() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 191
 ERROR - 2018-09-24 09:27:01 --> 404 Page Not Found: Vendors/js
 ERROR - 2018-09-24 09:27:01 --> 404 Page Not Found: Vendors/js
 ERROR - 2018-09-24 09:27:01 --> 404 Page Not Found: Vendors/css
-ERROR - 2018-09-24 09:28:36 --> Severity: error --> Exception: Call to undefined method Vendor_model::unverify_vendor() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 197
+ERROR - 2018-09-24 09:28:36 --> Severity: error --> Exception: Call to undefined method Vendor_Model::unverify_vendor() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 197
 ERROR - 2018-09-24 10:47:50 --> Severity: Notice --> Undefined variable: vendor C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 48
 ERROR - 2018-09-24 10:47:50 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 48
 ERROR - 2018-09-24 10:47:50 --> Severity: Notice --> Undefined variable: customer C:\xampp\htdocs\bangalore_shop\application\views\admin\dashboard.php 71

@@ -86,5 +86,7 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 
 
 //MARC DEFINE VARIBLE
+define('BASE_URL', "http://localhost:8080/vivek/vivekbangalore/");
 define('ADMIN_ROLE_ID',1) OR define('ADMIN_ROLE_ID', 1); // super admin id
 define('VENDOR_ROLE_ID',2) OR define('VENDOR_ROLE_ID', 2); // vendor id
+define('VENDOR_FILE_PFX','upload/admin/vendor/') OR define('VENDOR_FILE_PFX','upload/admin/vendor/'); // vendor id

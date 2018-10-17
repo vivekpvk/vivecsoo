@@ -637,8 +637,8 @@ ERROR - 2018-09-25 10:28:06 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2018-09-25 10:31:24 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 140
 ERROR - 2018-09-25 10:33:01 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 140
 ERROR - 2018-09-25 11:20:54 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 140
-ERROR - 2018-09-25 11:54:29 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 16
-ERROR - 2018-09-25 12:00:19 --> Severity: error --> Exception: Call to undefined method Vendor_model::select_product() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 127
+ERROR - 2018-09-25 11:54:29 --> Severity: error --> Exception: syntax error, unexpected 'if' (T_IF) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 16
+ERROR - 2018-09-25 12:00:19 --> Severity: error --> Exception: Call to undefined method Vendor_Model::select_product() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 127
 ERROR - 2018-09-25 12:14:38 --> Severity: Notice --> Trying to get property 'cat_id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 46
 ERROR - 2018-09-25 12:14:38 --> Severity: Notice --> Trying to get property 'cat_id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 46
 ERROR - 2018-09-25 12:14:38 --> Severity: Notice --> Trying to get property 'business_name' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 58

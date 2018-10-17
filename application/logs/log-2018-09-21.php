@@ -4421,9 +4421,9 @@ ERROR - 2018-09-21 12:27:02 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2018-09-21 12:27:02 --> Severity: Notice --> Undefined property: stdClass::$company C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 87
 ERROR - 2018-09-21 12:27:02 --> Severity: Notice --> Undefined property: stdClass::$description C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 90
 ERROR - 2018-09-21 12:27:02 --> Severity: Notice --> Undefined property: stdClass::$specification C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 93
-ERROR - 2018-09-21 12:27:05 --> Severity: error --> Exception: Unable to locate the model you have specified: Vendor_model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 348
-ERROR - 2018-09-21 12:28:03 --> Severity: error --> Exception: C:\xampp\htdocs\bangalore_shop\application\models/Vendor_model.php exists, but doesn't declare class Vendor_model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 340
-ERROR - 2018-09-21 12:28:06 --> Severity: error --> Exception: C:\xampp\htdocs\bangalore_shop\application\models/Vendor_model.php exists, but doesn't declare class Vendor_model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 340
+ERROR - 2018-09-21 12:27:05 --> Severity: error --> Exception: Unable to locate the model you have specified: Vendor_Model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 348
+ERROR - 2018-09-21 12:28:03 --> Severity: error --> Exception: C:\xampp\htdocs\bangalore_shop\application\models/Vendor_Model.php exists, but doesn't declare class Vendor_Model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 340
+ERROR - 2018-09-21 12:28:06 --> Severity: error --> Exception: C:\xampp\htdocs\bangalore_shop\application\models/Vendor_Model.php exists, but doesn't declare class Vendor_Model C:\xampp\htdocs\bangalore_shop\system\core\Loader.php 340
 ERROR - 2018-09-21 12:29:15 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 21
 ERROR - 2018-09-21 13:02:04 --> Severity: Notice --> Undefined property: stdClass::$prod_image C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 78
 ERROR - 2018-09-21 13:02:04 --> Severity: Notice --> Undefined property: stdClass::$prod_brand C:\xampp\htdocs\bangalore_shop\application\views\admin\product\product_list.php 81

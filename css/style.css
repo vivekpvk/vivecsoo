@@ -16308,3 +16308,19 @@ input[aria-invalid="true"], textarea[aria-invalid="true"] {
 }
 
 /*# sourceMappingURL=maps/style.css.map */
+table.table.table-dark td {
+    cursor: pointer;
+}
+
+div#loader {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 100000000;
+    padding: 20% 45%;
+    display: none;
+}
+
+div#block-otp {
+    display: none;
+}

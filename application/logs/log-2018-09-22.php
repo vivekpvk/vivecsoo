@@ -228,7 +228,7 @@ ERROR - 2018-09-22 10:40:10 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 10:40:10 --> Severity: Warning --> getimagesize(./upload/1/): failed to open stream: No such file or directory C:\xampp\htdocs\bangalore_shop\application\models\Common_model.php 12
 ERROR - 2018-09-22 10:42:38 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 94
 ERROR - 2018-09-22 10:42:38 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 94
-ERROR - 2018-09-22 10:42:38 --> Severity: error --> Exception: Call to undefined method Vendor_model::update_images() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 156
+ERROR - 2018-09-22 10:42:38 --> Severity: error --> Exception: Call to undefined method Vendor_Model::update_images() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 156
 ERROR - 2018-09-22 10:43:12 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 94
 ERROR - 2018-09-22 10:43:12 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 94
 ERROR - 2018-09-22 10:45:28 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 94
@@ -316,7 +316,7 @@ ERROR - 2018-09-22 11:21:40 --> Severity: Notice --> A non well formed numeric v
 ERROR - 2018-09-22 11:21:40 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:21:40 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:21:40 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:21:40 --> Severity: error --> Exception: Too few arguments to function Vendor_model::update_images(), 1 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 137 and exactly 5 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 22
+ERROR - 2018-09-22 11:21:40 --> Severity: error --> Exception: Too few arguments to function Vendor_Model::update_images(), 1 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 137 and exactly 5 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 22
 ERROR - 2018-09-22 11:22:54 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:22:54 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:22:54 --> The upload path does not appear to be valid.
@@ -329,28 +329,28 @@ ERROR - 2018-09-22 11:25:08 --> Severity: Notice --> A non well formed numeric v
 ERROR - 2018-09-22 11:25:08 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:25:08 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:25:08 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:25:08 --> Severity: Notice --> Undefined variable: gst C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 23
-ERROR - 2018-09-22 11:25:08 --> Severity: Notice --> Undefined variable: license C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 24
+ERROR - 2018-09-22 11:25:08 --> Severity: Notice --> Undefined variable: gst C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 23
+ERROR - 2018-09-22 11:25:08 --> Severity: Notice --> Undefined variable: license C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 24
 ERROR - 2018-09-22 11:25:38 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:25:38 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:25:38 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:25:38 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:25:38 --> Severity: Notice --> Trying to get property 'gst' of non-object C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 23
-ERROR - 2018-09-22 11:25:38 --> Severity: Notice --> Trying to get property 'license' of non-object C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 24
+ERROR - 2018-09-22 11:25:38 --> Severity: Notice --> Trying to get property 'gst' of non-object C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 23
+ERROR - 2018-09-22 11:25:38 --> Severity: Notice --> Trying to get property 'license' of non-object C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 24
 ERROR - 2018-09-22 11:27:01 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:27:01 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:27:01 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:27:01 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:27:01 --> Severity: Notice --> Undefined variable: a C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 139
 ERROR - 2018-09-22 11:27:01 --> Severity: Notice --> Undefined variable: b C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 139
-ERROR - 2018-09-22 11:27:01 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 28
+ERROR - 2018-09-22 11:27:01 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 28
 ERROR - 2018-09-22 11:28:10 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:28:10 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:28:10 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:28:10 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:28:10 --> Severity: Notice --> Undefined variable: gst_image C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 137
 ERROR - 2018-09-22 11:28:10 --> Severity: Notice --> Undefined variable: license_image C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 137
-ERROR - 2018-09-22 11:28:10 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 28
+ERROR - 2018-09-22 11:28:10 --> Severity: Notice --> Undefined variable: data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 28
 ERROR - 2018-09-22 11:28:39 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:28:39 --> Severity: Notice --> A non well formed numeric value encountered C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 77
 ERROR - 2018-09-22 11:28:39 --> The upload path does not appear to be valid.
@@ -362,44 +362,44 @@ ERROR - 2018-09-22 11:40:11 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:40:11 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:40:11 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:40:11 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 31
-ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 32
-ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 33
-ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 34
+ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 31
+ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 32
+ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 33
+ERROR - 2018-09-22 11:40:11 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 34
 ERROR - 2018-09-22 11:40:11 --> Query error: Column 'gst_image' cannot be null - Invalid query: INSERT INTO `vendor` (`gst_image`, `license_image`, `pan_image`, `aadhar_image`) VALUES (NULL, NULL, NULL, NULL)
 ERROR - 2018-09-22 11:41:45 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:41:45 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:41:45 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:41:45 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 28
-ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 29
-ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 30
-ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 31
+ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 28
+ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 29
+ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 30
+ERROR - 2018-09-22 11:41:45 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 31
 ERROR - 2018-09-22 11:41:45 --> Query error: Column 'gst_image' cannot be null - Invalid query: INSERT INTO `vendor` (`gst_image`, `license_image`, `pan_image`, `aadhar_image`) VALUES (NULL, NULL, NULL, NULL)
 ERROR - 2018-09-22 11:46:51 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:46:51 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:46:51 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:46:51 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 25
-ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 26
-ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 27
-ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 28
+ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 25
+ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 26
+ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 27
+ERROR - 2018-09-22 11:46:51 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 28
 ERROR - 2018-09-22 11:46:51 --> Query error: Column 'gst_image' cannot be null - Invalid query: INSERT INTO `vendor` (`gst_image`, `license_image`, `pan_image`, `aadhar_image`) VALUES (NULL, NULL, NULL, NULL)
 ERROR - 2018-09-22 11:55:23 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:55:23 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:55:23 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:55:23 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 25
-ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 26
-ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 27
-ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 28
+ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 25
+ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 26
+ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 27
+ERROR - 2018-09-22 11:55:23 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 28
 ERROR - 2018-09-22 11:55:23 --> Query error: Column 'gst_image' cannot be null - Invalid query: INSERT INTO `vendor` (`gst_image`, `license_image`, `pan_image`, `aadhar_image`) VALUES (NULL, NULL, NULL, NULL)
 ERROR - 2018-09-22 11:56:37 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:56:37 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:56:37 --> The upload path does not appear to be valid.
 ERROR - 2018-09-22 11:56:37 --> The upload path does not appear to be valid.
-ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 25
-ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 26
-ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 27
-ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 28
+ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 25
+ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 26
+ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 27
+ERROR - 2018-09-22 11:56:37 --> Severity: Notice --> Undefined index: upload_data C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 28
 ERROR - 2018-09-22 11:56:37 --> Query error: Column 'gst_image' cannot be null - Invalid query: INSERT INTO `vendor` (`gst_image`, `license_image`, `pan_image`, `aadhar_image`) VALUES (NULL, NULL, NULL, NULL)

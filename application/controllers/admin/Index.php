@@ -10,7 +10,7 @@ class Index extends CI_Controller {
             //$this->load->model('dashboard_model');
             $this->load->model('User_Model');
             $this->load->model('Role_Model');
-            $this->load->model('Vendor_model');
+            $this->load->model('Vendor_Model');
             //$this->load->model('Subcategory_Model');
             //$this->load->model('Product_Model',"Product_Model");
             //$this->load->model('User_Model',"User_Model");
@@ -86,9 +86,8 @@ class Index extends CI_Controller {
     }
 
     }
-     public function changePassword(){
+    public function changePassword(){
         $this->load->view('admin/change_password');
-
     }
     public function password()
 {

@@ -2177,7 +2177,7 @@ ERROR - 2018-10-01 11:20:04 --> Severity: Notice --> Undefined variable: keys C:
 ERROR - 2018-10-01 11:20:04 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendor_businesslist.php 263
 ERROR - 2018-10-01 11:20:04 --> Severity: Notice --> Undefined variable: keyall C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendor_businesslist.php 267
 ERROR - 2018-10-01 11:20:04 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendor_businesslist.php 267
-ERROR - 2018-10-01 11:43:16 --> Severity: error --> Exception: Too few arguments to function Vendor_model::getKeysselected(), 0 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 245 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 135
+ERROR - 2018-10-01 11:43:16 --> Severity: error --> Exception: Too few arguments to function Vendor_Model::getKeysselected(), 0 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 245 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 135
 ERROR - 2018-10-01 11:55:01 --> Query error: Column 'id' in field list is ambiguous - Invalid query: SELECT *, `id`
 FROM `user`
 JOIN `vendor` ON `vendor`.`user_id` = `user`.`id`
@@ -2186,22 +2186,22 @@ ERROR - 2018-10-01 12:06:45 --> Query error: Column 'id' in field list is ambigu
 FROM `user`
 JOIN `vendor` ON `vendor`.`user_id` = `user`.`id`
 WHERE `user`.`role` = 2
-ERROR - 2018-10-01 12:21:24 --> Severity: Compile Error --> Cannot redeclare Vendor_model::getVendorKey() C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 135
-ERROR - 2018-10-01 12:22:21 --> Severity: Compile Error --> Cannot redeclare Vendor_model::getVendorKey() C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 135
-ERROR - 2018-10-01 12:24:25 --> Severity: error --> Exception: Call to undefined method Vendor_model::getKeysselected() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 245
-ERROR - 2018-10-01 12:24:57 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:24:58 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:24:58 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
-ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 136
+ERROR - 2018-10-01 12:21:24 --> Severity: Compile Error --> Cannot redeclare Vendor_Model::getVendorKey() C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 135
+ERROR - 2018-10-01 12:22:21 --> Severity: Compile Error --> Cannot redeclare Vendor_Model::getVendorKey() C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 135
+ERROR - 2018-10-01 12:24:25 --> Severity: error --> Exception: Call to undefined method Vendor_Model::getKeysselected() C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 245
+ERROR - 2018-10-01 12:24:57 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:24:58 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:24:58 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:24:59 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
+ERROR - 2018-10-01 12:25:00 --> Severity: error --> Exception: syntax error, unexpected 'public' (T_PUBLIC) C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 136
 ERROR - 2018-10-01 12:28:35 --> Severity: Notice --> Trying to get property 'business_name' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 29
 ERROR - 2018-10-01 12:28:35 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 30
 ERROR - 2018-10-01 12:28:35 --> Severity: Notice --> Trying to get property 'business_address' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 36
@@ -2260,8 +2260,8 @@ ERROR - 2018-10-01 12:28:35 --> Severity: Notice --> Trying to get property 'cat
 ERROR - 2018-10-01 12:28:35 --> Severity: Notice --> Trying to get property 'cat_id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 256
 ERROR - 2018-10-01 12:28:35 --> Severity: Notice --> Trying to get property 'cat_id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 256
 ERROR - 2018-10-01 12:31:25 --> Severity: error --> Exception: Too few arguments to function Vendordetail::detail_edit(), 0 passed in C:\xampp\htdocs\bangalore_shop\system\core\CodeIgniter.php on line 532 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php 26
-ERROR - 2018-10-01 12:32:08 --> Severity: error --> Exception: Too few arguments to function Vendor_model::update_details(), 0 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 30 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 67
-ERROR - 2018-10-01 12:32:09 --> Severity: error --> Exception: Too few arguments to function Vendor_model::update_details(), 0 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 30 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_model.php 67
+ERROR - 2018-10-01 12:32:08 --> Severity: error --> Exception: Too few arguments to function Vendor_Model::update_details(), 0 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 30 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 67
+ERROR - 2018-10-01 12:32:09 --> Severity: error --> Exception: Too few arguments to function Vendor_Model::update_details(), 0 passed in C:\xampp\htdocs\bangalore_shop\application\controllers\admin\vendor\Vendordetail.php on line 30 and exactly 1 expected C:\xampp\htdocs\bangalore_shop\application\models\Vendor_Model.php 67
 ERROR - 2018-10-01 12:35:50 --> Severity: Notice --> Trying to get property 'business_name' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 29
 ERROR - 2018-10-01 12:35:50 --> Severity: Notice --> Trying to get property 'id' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 30
 ERROR - 2018-10-01 12:35:50 --> Severity: Notice --> Trying to get property 'business_address' of non-object C:\xampp\htdocs\bangalore_shop\application\views\admin\vendor\vendordetail_edit.php 36

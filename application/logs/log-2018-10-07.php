@@ -464,3 +464,309 @@ ERROR - 2018-10-07 15:51:19 --> Severity: Notice --> Undefined property: stdClas
 ERROR - 2018-10-07 15:51:19 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
 ERROR - 2018-10-07 15:51:19 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
 ERROR - 2018-10-07 15:51:19 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:26:27 --> 404 Page Not Found: admin/Login/index
+ERROR - 2018-10-07 21:26:33 --> 404 Page Not Found: admin//index
+ERROR - 2018-10-07 21:26:36 --> 404 Page Not Found: admin/Login/index
+ERROR - 2018-10-07 21:26:41 --> 404 Page Not Found: Images/hjkj.png
+ERROR - 2018-10-07 21:29:40 --> 404 Page Not Found: admin/Login/index
+ERROR - 2018-10-07 21:29:45 --> 404 Page Not Found: admin/Login/index
+ERROR - 2018-10-07 21:29:55 --> 404 Page Not Found: admin/Login/index
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:16 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:37:28 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:40:22 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:50 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 21:55:57 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:32:14 --> 404 Page Not Found: admin/Product/product_list
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:11 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 78
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 81
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 84
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 87
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 90
+ERROR - 2018-10-07 22:33:15 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_list.php 93
+ERROR - 2018-10-07 22:33:18 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:33:18 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:33:18 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:08 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:09 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:09 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:13 --> 404 Page Not Found: admin/Add/index
+ERROR - 2018-10-07 22:36:19 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:19 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:19 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:23 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:24 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:24 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:50 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:51 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:51 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:56 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:56 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:56 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:58 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:36:59 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:36:59 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:06 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:37:07 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:07 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:13 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:37:13 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:13 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:24 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 65
+ERROR - 2018-10-07 22:37:24 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 74
+ERROR - 2018-10-07 22:37:24 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 83
+ERROR - 2018-10-07 22:37:24 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 92
+ERROR - 2018-10-07 22:37:24 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 101
+ERROR - 2018-10-07 22:37:24 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 110
+ERROR - 2018-10-07 22:37:25 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:37:25 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:25 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:31 --> 404 Page Not Found: admin/Product/saveproduct
+ERROR - 2018-10-07 22:37:35 --> Severity: Notice --> Undefined property: stdClass::$prod_image /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 65
+ERROR - 2018-10-07 22:37:35 --> Severity: Notice --> Undefined property: stdClass::$prod_brand /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 74
+ERROR - 2018-10-07 22:37:35 --> Severity: Notice --> Undefined property: stdClass::$prod_url /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 83
+ERROR - 2018-10-07 22:37:35 --> Severity: Notice --> Undefined property: stdClass::$company /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 92
+ERROR - 2018-10-07 22:37:35 --> Severity: Notice --> Undefined property: stdClass::$description /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 101
+ERROR - 2018-10-07 22:37:35 --> Severity: Notice --> Undefined property: stdClass::$specification /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/product/product_edit.php 110
+ERROR - 2018-10-07 22:37:36 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:37:36 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:37:36 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:38:54 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:38:55 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:38:55 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:38:59 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:38:59 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:38:59 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:39:10 --> 404 Page Not Found: admin/Product/product_list
+ERROR - 2018-10-07 22:39:16 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:39:16 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:39:17 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:40:29 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:40:29 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:40:29 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:40:33 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:40:33 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:40:33 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:41:16 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:41:17 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:41:17 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:41:44 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:41:45 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:41:45 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:41:50 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:41:51 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:41:51 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:12 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:42:13 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:13 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:28 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:42:29 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:29 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:45 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:45 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:46 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:42:51 --> 404 Page Not Found: Vendors/css
+ERROR - 2018-10-07 22:42:51 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:42:51 --> 404 Page Not Found: Vendors/js
+ERROR - 2018-10-07 22:44:06 --> Severity: Notice --> Undefined variable: post /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/vendor/vendordetail_add.php 243
+ERROR - 2018-10-07 22:44:06 --> Severity: Notice --> Trying to get property of non-object /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/vendor/vendordetail_add.php 243
+ERROR - 2018-10-07 22:44:06 --> Severity: Notice --> Undefined variable: post /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/vendor/vendordetail_add.php 243
+ERROR - 2018-10-07 22:44:06 --> Severity: Notice --> Trying to get property of non-object /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/vivek/vivekbangalore/application/views/admin/vendor/vendordetail_add.php 243

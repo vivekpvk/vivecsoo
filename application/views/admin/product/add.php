@@ -34,7 +34,7 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                    <div class="card-body">  
                                    <h4>Add Product</h4>   
                                 <div class="block-content block-content-full bg-gray-lighter ">
-                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/product/Addproduct"  method="post" enctype="multipart/form-data">
+                                      <form class="form-horizontal" action="<?php echo base_url(); ?>admin/product/create"  method="post" enctype="multipart/form-data">
 
                                         <div class="form-group">
                                             <label class="col-md-2 control-label">Select Parent Category<span class="text-danger">*</span></label>
@@ -57,57 +57,6 @@ require(FCPATH."/application/views/admin/sidebar.php");
                                                  
                                             </div>
                                         </div>
-
-
-                                        <!-- <div class="form-group">
-                                            <label class="col-md-2 control-label">Product Image<span class="text-danger">*</span></label>
-                                            <div class="col-md-7">
-                                                <img id="previewimage" onclick="$('#uploadFile').click();" src="<?php echo base_url(); ?>images/product_image.gif" style="cursor: pointer;height: 210px;width: 210px;position: relative;z-index: 10;"/>
-                                                <input type="file" id="uploadFile" name="prod_image" style="position: absolute; margin: 0px auto; visibility: hidden;" accept="image/*"  />
-                                                
-                                            </div>
-                                        </div> 
-
-
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Product Brand<span class="text-danger">*</span></label>
-                                            <div class="col-md-7">
-                                                <input class="form-control" type="text" name="brand" placeholder="Brand Name" >
-                                                 
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Product URL<span class="text-danger">*</span></label>
-                                            <div class="col-md-7">
-                                                <input class="form-control" type="text" name="prod_url" placeholder="Url" >
-                                                 
-                                            </div>
-                                        </div>
-
-                                         <div class="form-group">
-                                            <label class="col-md-2 control-label">Company Name<span class="text-danger">*</span></label>
-                                            <div class="col-md-7">
-                                                <input class="form-control" type="text" name="company" placeholder="Company" >
-                                                 
-                                            </div>
-                                        </div>
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Product Description<span class="text-danger">*</span></label>
-                                            <div class="col-md-7">
-                                                <textarea name="desc" style="width:250px;height:150px;"></textarea>
-                                                 
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="col-md-2 control-label">Product Specification<span class="text-danger">*</span></label>
-                                            <div class="col-md-7">
-                                                <textarea name="spec" style="width:250px;height:150px;"></textarea>
-                                                 
-                                            </div>
-                                        </div>-->
-
 
                                        <div class="form-group">
                                             <div class="col-md-8 col-md-offset-2">

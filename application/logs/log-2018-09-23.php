@@ -5,17 +5,17 @@ ERROR - 2018-09-23 10:59:53 --> The upload path does not appear to be valid.
 ERROR - 2018-09-23 10:59:53 --> The upload path does not appear to be valid.
 ERROR - 2018-09-23 10:59:53 --> The upload path does not appear to be valid.
 ERROR - 2018-09-23 10:59:53 --> The upload path does not appear to be valid.
-ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_model.php 25
-ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_model.php 26
-ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_model.php 27
-ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_model.php 28
+ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_Model.php 25
+ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_Model.php 26
+ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_Model.php 27
+ERROR - 2018-09-23 10:59:53 --> Severity: Notice --> Undefined index: upload_data /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_Model.php 28
 ERROR - 2018-09-23 10:59:53 --> Query error: Column 'gst_image' cannot be null - Invalid query: INSERT INTO `vendor` (`gst_image`, `license_image`, `pan_image`, `aadhar_image`) VALUES (NULL, NULL, NULL, NULL)
 ERROR - 2018-09-23 11:28:21 --> The upload path does not appear to be valid.
 ERROR - 2018-09-23 11:50:14 --> Severity: Notice --> Undefined index: file_name /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/controllers/admin/vendor/Vendordetail.php 38
 ERROR - 2018-09-23 11:52:10 --> Severity: Notice --> Undefined variable: error /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/views/admin/vendor/vendordetail_add.php 18
 ERROR - 2018-09-23 11:52:15 --> Severity: Notice --> Undefined variable: error /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/views/admin/vendor/vendordetail_add.php 18
 ERROR - 2018-09-23 11:55:24 --> Severity: Notice --> Undefined variable: error /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/views/admin/vendor/vendordetail_add.php 18
-ERROR - 2018-09-23 12:09:38 --> Severity: Parsing Error --> syntax error, unexpected '}' /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_model.php 28
+ERROR - 2018-09-23 12:09:38 --> Severity: Parsing Error --> syntax error, unexpected '}' /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/models/Vendor_Model.php 28
 ERROR - 2018-09-23 12:15:51 --> Severity: Notice --> Undefined variable: error /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/views/admin/vendor/vendordetail_add.php 18
 ERROR - 2018-09-23 12:15:53 --> Severity: Notice --> Undefined variable: error /home/krazybee/lampstack-5.6.35-0/apache2/htdocs/Vivek/bangalore_shop/application/views/admin/vendor/vendordetail_add.php 18
 ERROR - 2018-09-23 12:30:26 --> 404 Page Not Found: Vendors/js

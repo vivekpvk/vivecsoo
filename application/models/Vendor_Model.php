@@ -1,47 +1,60 @@
 <?php
-class Vendor_model extends CI_Model {
-    function __construct() {
+class Vendor_Model extends CI_Model {
+    
+    public function __construct() {
         // Call the Model constructor
         parent::__construct();
     }
 
-    public function update_vendor($data){
-        /*$this->db->set('gst_image', $data.'/'.$gst);
-        $this->db->set('license_image', $data.'/'.$license);
-        $this->db->set('pan_image', $data.'/'.$pan);
-        $this->db->set('aadhar_image', $data.'/'.$aadhar);*/
-      
-	    $count=$this->db->insert('vendor',$data);
-        //$userId         = $this->session->userdata('userid');
-
-	    if($count>0) {
-			return true;
-
-		}else{
-			return false;  
-		}
-}
-    public function save_product($data,$vendor_id){
-        /*$this->db->set('gst_image', $data.'/'.$gst);
-        $this->db->set('license_image', $data.'/'.$license);
-        $this->db->set('pan_image', $data.'/'.$pan);
-        $this->db->set('aadhar_image', $data.'/'.$aadhar);*/
-        $userId         = $this->session->userdata('userid');
-        $this->db->where('id',$vendor_id);
-        $query = $this->db->update('vendor',$data);
-         if($query) {
-            return true;
-
-        }else{
-            return false;  
-        }
+    public function get($id) {
+        $this->db->select('user.*,vendor.*,user.id as vendor_id');
+        $this->db->from('user');
+        $this->db->join('vendor', 'vendor.user_id = user.id', 'left');
+        $this->db->where('user.role ='.VENDOR_ROLE_ID);
+        $this->db->where('user.id ='.$id);
+        $query = $this->db->get()->row();
+        return $query;
     }
 
+    public function getList() {
+        $this->db->select('*');
+        $this->db->from('user');
+        $this->db->where('role ='.VENDOR_ROLE_ID);
+        $query = $this->db->get();
+        return $query->result();
+    }
 
+    //4 function common for all models list,add,delete,update
+    public function create($data){
+        $get    = $this->db->query("SELECT * FROM user WHERE email = '".$data['email']."' OR mobile = '".$data['mobile']."'");
+        $rows = $get->row_array();
+        $result         = false;
+        if ($get->num_rows() == 0) {
+            $this->load->database();
+            $count      = $this->db->insert('user',$data);
+            if($count>0) {
+                $result = true;
+            }
+        }
+        return $result;
+    }
 
-    function update_images($fileName,$column) {
-        $data           =   array($column=>$fileName);
-        $userId         = $this->session->userdata('userid');
+    public function update($data) {
+        if(empty($data['user_id'])) {
+            return false;
+        }
+        $user               = $this->get($data['user_id']);
+        if(!empty($user->user_id)) {
+            $this->db->where('user_id',$user->vendor_id);
+            $result = $this->db->update('vendor',$data);
+        }else{
+            $result = $this->db->insert('vendor',$data);
+        }  
+       return $result;
+    }
+
+    public function update_images($fileName,$column,$userId) {
+        $data           = array($column => $fileName);
         $this->db->where('user_id',$userId);
         $query = $this->db->update('vendor',$data);
         return;
@@ -80,10 +93,7 @@ class Vendor_model extends CI_Model {
         $query = $this->db->get()->row();
         return $query;
         }
-
-
-
-
+        
     public function getPosts() {
         $this->db->select("*"); 
         return $query = $this->db->get('category')->result();

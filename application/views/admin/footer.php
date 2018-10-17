@@ -1,3 +1,9 @@
+                </div>
+            </div>
+        </div>
+    </main>
+</div>
+
     <!-- partial:<?php echo base_url();?>partials/_footer.html -->
     <footer class="footer">
       <div class="container-fluid clearfix">
@@ -30,6 +36,11 @@
 </body>
 </html>
 <script>
+  $(document).ready(function($) {
+    $(".tr-click").click(function() {
+        window.location = $(this).data("href");
+    });
+});
 $('document').ready(function()
 { 
   function readURL(input) {
