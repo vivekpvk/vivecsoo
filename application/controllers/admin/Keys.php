@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Product extends CI_Controller {
+class Keys extends CI_Controller {
 
     public function __construct() { 
         parent::__construct();
@@ -10,12 +10,13 @@ class Product extends CI_Controller {
         
     public function index() {
         $return['list']     = $this->Product_Model->getList();
-        $this->load->view('admin/product/list',$return);
+        $return['catlist']  = $this->Category_Model->getList();
+        $this->load->view('admin/product/product_list',$return);
     }
            
     public function add() {
         $data['posts']  = $this->Product_Model->getPosts();
-        $this->load->view('admin/product/add',$data);
+        $this->load->view('admin/product/product_add',$data);
     }
 
     public function create() {
@@ -44,7 +45,7 @@ class Product extends CI_Controller {
         if(!empty($id)) {            
             $data['selectedcat'] = $this->Product_Model->get($id);
             $data['posts']       = $this->Product_Model->getPosts();
-            $this->load->view('admin/product/edit',$data);
+            $this->load->view('admin/product/product_edit',$data);
         }else {
             redirect('admin/product');
         }

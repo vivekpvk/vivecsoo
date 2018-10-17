@@ -5,8 +5,34 @@ class Product_Model extends CI_Model {
         parent::__construct();
     }
 
-    public function add_product($data){
-        //$this->db->set('prod_image', $data.'/'.$subfilename);
+    public function get($id) {
+        $this->db->select("products.*,
+                           user1.first_name as username1,user1.mobile as mobile1,
+                           user2.first_name as username2,user2.mobile as mobile2,
+                           user3.first_name as username3,user3.mobile as mobile3
+                           ");
+        $this->db->from('products');
+        $this->db->join('user as user1','user1.id = products.vendor_1', 'left');
+        $this->db->join('user as user2','user2.id = products.vendor_2', 'left');
+        $this->db->join('user as user3','user3.id = products.vendor_3', 'left');
+        $this->db->where('products.id',$id);
+        $query = $this->db->get()->row();
+        return $query;  
+    }
+
+    public function getList() {
+        $this->db->select('products.*,category.cat_name,user1.first_name as username1,user2.first_name as username2,user3.first_name as username3');
+        $this->db->from('products');
+        $this->db->join('category','category.id = products.cat_id', 'left');
+        $this->db->join('user as user1','user1.id = products.vendor_1', 'left');
+        $this->db->join('user as user2','user2.id = products.vendor_2', 'left');
+        $this->db->join('user as user3','user3.id = products.vendor_3', 'left');
+        $this->db->where('products.status',1);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
+    public function create($data){
 	    $count=$this->db->insert('products',$data);
 	    if($count>0) {
 			return true;
@@ -66,56 +92,15 @@ class Product_Model extends CI_Model {
         return $result;
     }
 
-    public function product_list() {
-
-        /*$roleId = $this->session->userdata('roleid');
-        $userId = $this->session->userdata('userid');
-
-         
-        $query=$this->db->query("SELECT * FROM products WHERE NOT $roleId = 'SUPER_ADMIN' AND status='1' AND (vendor_1='$userId' OR vendor_2='$userId' OR vendor_3='$userId')");
-        return $query->result();*/
-
-      
-         
-           
-
-        $this->db->select(" * ");
-        $this->db->from('products');
-        $this->db->where('status',1);
-        //checking the sesion id is not a super admin
-        $roleId = $this->session->userdata('roleid');
-        $userId = $this->session->userdata('userid');
-        
-        /*if($roleId!=SUPER_ADMIN){
-        $this->db->where('vendor_1',$userId);
-        $this->db->or_where('vendor_2',$userId);
-        $this->db->or_where('vendor_3',$userId);
-        }*/
-    	$query = $this->db->get();
-    	return $query->result();
-    }
-    public function edit_product($id)
-        {
-        $this->db->select(" * ");
-        $this->db->from('products');
-        $this->db->where('id',$id);
-        $query = $this->db->get()->row();
-        return $query;	
-        }
-
-   
-	public function save_product($data,$product_id)
-        {
-        //$this->db->set('prod_image', $subfilename);
+	public function update($data,$product_id) {
         $this->db->where('id',$product_id);
         $query = $this->db->update('products',$data);
         return true;
-          }
+    }
 
-        function delete_product($id) {
-            $this->db->set('status', 0); //value that used to update column  
-            $this->db->where('id',$id);
-            $this->db->update('products');
-        }
-
+    public function delete($id) {
+        $this->db->set('status', 0); //value that used to update column  
+        $this->db->where('id',$id);
+        $this->db->update('products');
+    }
 }

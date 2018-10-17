@@ -1,5 +1,5 @@
 <?php
-if(empty($this->session->userdata('userid'))) {
+if(empty($this->session->userdata('userid')) || $this->session->userdata('roleid')==VENDOR_ROLE_ID) {
     redirect('admin/login');
     return;
 }
@@ -49,6 +49,7 @@ if(empty($this->session->userdata('userid'))) {
 
 <body>
   <div class="container-scroller">
+    <div id="loader" class="loader"><img src="<?php echo base_url();?>css/images/loading.gif"></div>
     <!-- partial:<?php echo base_url();?>partials/_navbar.html -->
     <nav class="navbar default-layout col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-top justify-content-center">
@@ -205,10 +206,10 @@ if(empty($this->session->userdata('userid'))) {
                   </div>
                 </div> -->
               </a>
-              <a class="dropdown-item mt-2" href="<?php echo base_url(); ?>index.php/admin/login/userProfile">
+              <a class="dropdown-item mt-2" href="<?php echo base_url(); ?>index.php/admin/user/manageprofile">
                 Manage Accounts
               </a> 
-              <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/admin/login/changePassword">
+              <a class="dropdown-item" href="<?php echo base_url(); ?>index.php/admin/user/password">
                 Change Password
               </a">
               

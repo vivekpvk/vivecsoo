@@ -17,113 +17,56 @@
                 <div class="text-wrapper">
                   <p class="profile-name"><?php echo $this->session->userdata('first_name')." ".$this->session->userdata('last_name');?></p>
                   <div>
-                    <small class="designation text-muted"><?php if($this->session->userdata('roleid')==1){
-                      echo "Super Admin";
-                    }elseif ($this->session->userdata('roleid')==2) {
-                      echo "Vendor";
-                    }else{
-                      echo "SubAdmin";
-                    }?></small>
+                    <small class="designation text-muted">Vendor</small>
                     <span class="status-indicator online"></span>
                   </div>
                 </div>
               </div>
-              <!--button class="btn btn-success btn-block">New Project
-                <i class="mdi mdi-plus"></i>
-              </button-->
             </div>
           </li>
-          <?php 
-          if (in_array(DASHBOARD, $menuIds)) {?>
           <li class="nav-item">
-            <a class="nav-link" href="<?php echo base_url(); ?>admin/dashboard">
+            <a class="nav-link" href="<?php echo base_url(); ?>admin/vendor/dashboard">
               <i class="menu-icon mdi mdi-television"></i>
               <span class="menu-title">Dashboard</span>
             </a>
           </li>
-          <?php } 
-          if (in_array(USER, $menuIds)) {?>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-user" aria-expanded="false" aria-controls="ui-basic">
               <i class="menu-icon fa fa-users"></i>
-              <span class="menu-title">User</span>
+              <span class="menu-title">My Settings</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-user">
               <ul class="nav flex-column sub-menu">
-                <?php if (in_array(USER_LIST, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user">Manage User</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/vendor/myprofile">My Profile</a>
                 </li>
-              <?php }
-               if (in_array(USER_MANAGE, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user/add">Add User</a>
+                  <a class="nav-link" href="<?php echo base_url(); ?>admin/vendor/myplan">My Plan</a>
                 </li>
-              <?php }
-               if (in_array(USER_ROLE, $menuIds)) {?>
                <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user/role">Add Role</a>
-                </li>
-              <?php }
-               if (in_array(USER_MENU, $menuIds)) {?>                
-                <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/user/menu">Manage Privilage</a>
-                </li>
-                <?php }?>
-               <!--  <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/product">Add Product</a>
-                </li> -->
+                  <a class="nav-link" href="<!-- <?php echo base_url(); ?>admin/user/role -->#">My Transaction</a>
+               </li>
               </ul>
             </div>
-          </li>
-        <?php } 
-          if (in_array(CATALOG, $menuIds)) {?>
+          </li> 
            <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-catlog" aria-expanded="false" aria-controls="ui-basic">
               <i class="menu-icon mdi mdi-content-copy"></i>
-              <span class="menu-title">Catlog</span>
+              <span class="menu-title">Support</span>
               <i class="menu-arrow"></i>
             </a>
             <div class="collapse" id="ui-catlog">
               <ul class="nav flex-column sub-menu">
-                <?php if (in_array(CATALOG_LIST, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/category/">Category</a>
+                  <a class="nav-link" href="#">Chat Us</a>
                 </li>
-                <?php } 
-          if (in_array(PRODUCT_LIST, $menuIds)) {?>
                 <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url(); ?>admin/product/">Product</a>
+                  <a class="nav-link" href="#">Faq</a>
                 </li>
-              <?php } ?>
               </ul>
             </div>
           </li>
-        <?php } 
-        if (in_array(VENDOR, $menuIds)) {?>
-          <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#ui_alvendor" aria-expanded="false" aria-controls="auth">
-              <i class="menu-icon fa fa-user-o"></i>
-              <span class="menu-title">Vendor</span>
-              <i class="menu-arrow"></i>
-            </a>
-            <div class="collapse" id="ui_alvendor">
-              <ul class="nav flex-column sub-menu">
-               <?php if (in_array(VENDOR_LIST, $menuIds)) {?>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>admin/vendor/">Manage Vendor</a>
-                </li>
-                <?php }
-              if (in_array(VENDOR_KEYS, $menuIds)) {?>
-                <li class="nav-item">
-                  <a class="nav-link" href="<?php echo base_url();?>admin/vendor/add"> Add Vendor</a>
-                </li>
-              <?php } ?>
-              </ul>
-            </div>
-          </li>
-        <?php }?>
            <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url();?>marc/logout">
               <i class="menu-icon  fa fa-sign-out"></i>
